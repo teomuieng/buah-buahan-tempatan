@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Buah-buahan Tempatan</title>
+<frameset rows="35%,65%">
+<frame src="banner.html">
+<frameset cols="30%,70%">
+<frame src="list.html">
+<frame name="contents">
+</frameset>
+</frameset>
+</head>
+<body>
+</body>
+</html>
+
+<html>
+<head>
+<title>Banner</title>
+</head>
+<body>
+<banner>
+<img src="semua_buah.jpg" width="100%" height="200">
+</banner>
+</body>
+</html>
+
+<html>
+<head>
+<title>list</title>
+</head>
+<body>
+<p><a href="belimbing.html" target="contents">Belimbing</a></p>
+<p><a href="delima.html" target="contents">Delima</a></p>
+<p><a href="manggis.html" target="contents">Manggis</a></p>
+<p><a href="durian.html" target="contents">Durian</a></p>
+<br></br>
+
+<p>Yang manakah buah kegemaran anda?</p>
+<select>
+<option value="Belimbing">Belimbing</option>
+<option value="Delima">Delima</option>
+<option value="Manggis">Manggis</option>
+<option value="Durian">Durian</option>
+</select>
+
+<form method='post'>
+Sebab:<br/>
+<textarea name='komen' id='komen'>
+</textarea><br/>
+<input type='hidden'name='articlied'
+id='articlied'value='<? echo $_GET["id"];?>'/>
+<input type='submit'value='Hantar'/>
+</form>
+</body>
+</html>
+
+<html>
+<head>
+<title>delima</title>
+</head>
+<body>
+<h1>Delima</h1>
+<h3>
+Delima (Punica granatum) merupakan sejenis pokok renek atau pokok kecil daun luruh yang berbuah dan boleh membesar sehingga ketinggian lima hingga lapan meter. Pokok delima berasal daripada Asia Barat Daya dan telah ditanam secara semulajadi di seluruh kawasan Lembah Mediterranean dan Kaukasus sejak zaman purba.
+</h3>
+</body>
+</html>
+
+<html>
+<head>
+<title>belimbing</title>
+</head>
+<body>
+<h1>Belimbing</h1>
+<h3>
+Pokok bemlimbing berasal daripada Indonesia,India dan Sri Langka.Pokok belimbing menghasilkan buah yang berbentuk khas.Jika dipotong melintang,buah berlimbing berbentuk bintang.Buah belimbing berwarna kuning kehijauan dan mempunyai biji benih yang kecil berwarna perang.Apabila dimakan,buah ini mempunyai air yang banyak,berasa manis dan masam.Buah ini mengandungi vitamin C yang banyak.
+</h3>
+</body>
+</html>
+
+<html>
+<head>
+<title>manggis</title>
+</head>
+<body>
+<h1>Manggis</h1>
+<h3>
+Manggis ialah tumbuhan tropika malar hijau dan dipercayai berasal dari Asia Tenggara.Pokok manggis boleh tumbuh daripada 7 hingga 25 meter dan menghasilkan buah bewarna ungu pekat yang boleh dimakan.Buah manggis dikenali sebagai "ratu segala buah" sementara buah durian dikenali sebagai "raja segala buah".
+</h3>
+</body>
+</html>
+
+<html>
+<head>
+<title>durian</title>
+</head>
+<body>
+<h1>Durian</h1>
+<h3>
+Pokok durian Kampung merupakan sejenis tumbuhan terdapat di hutan Malaysia serta di negara-negara ASEAN yang lain.Nama botaninya zibethinus Murray.
+</h3>
+</body>
+</html>
